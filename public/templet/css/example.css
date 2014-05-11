@@ -1,0 +1,38 @@
+/* Imports
+----------------------------------------*/
+@import url("core.css");
+
+/*app format*/
+
+.content{ text-align:center;}
+
+.left_box{ background:url(../images/help_box_bg.gif) repeat-x left top #eee; padding-bottom:14px;width:250px;float:left;}
+.left_box,.left_box div{text-align:left;}
+
+.left_box .adds span{ color:#9d9d9d;margin-right:10px; margin-left:10px; color:#34588c;}
+.left_box .adds  strong{ color:#9d9d9d; font-size:14px; margin-left:8px;}
+.left_box .adds  strong a{ font-size:14px;}
+
+
+.left_box a:visited{color:#34588c;}
+.left_box a:hover{ text-decoration:underline;}
+
+.left_box  .item_box{ width:250px;float:left;}
+.left_box  .item_box .bg_t{ background:url(../images/help_item_bgt.gif) no-repeat left top; height:9px;}
+.left_box  .item_box .bg_c{ background:url(../images/help_item_bgc.gif) repeat-y left top; overflow:hidden;}
+.left_box  .item_box .bg_c h4{ color:#627da6; background:url(../images/hp_tit_bg.gif) no-repeat left 50%; padding-left:10px; margin-left:20px;margin-top:10px;}
+.left_box  .item_box .bg_c .bg_bg{ background:url(../images/help_item_bg_bg.jpg) 50% bottom no-repeat; min-height:300px;}
+.left_box  .item_box .bg_b{ background:url(../images/help_item_bgb.gif) no-repeat left top;height:9px;}
+
+.left_box .item{ margin:10px auto 0px auto;}
+.left_box .item li{ font-size:14px; font-weight:bold; background:url(../images/hp_icon_sj.gif) no-repeat 28px 50%;padding-left:34px;}
+.left_box .item li a{ margin:10px auto; display:block;height:37px; line-height:37px; overflow:hidden; padding-left:1.5em;}
+.left_box .item li a:hover,.msover a:visited{ text-decoration:none;background:url(../images/hp_a_bg.png) no-repeat -12px 50%;_background:none; _color:#F00; _text-decoration:underline; } 
+.left_box .right_box{ width:670px; overflow:hidden;}
+.left_box .right_box .bg_t{background:url(../images/hp_rbox_bgt.gif) no-repeat left top;height:9px;}
+.left_box .right_box .bg_c{background:url(../images/hp_rbox_bgc.gif) repeat-y left top; overflow:hidden;}
+.left_box .right_box .bg_c .list_box{ width:90%; margin:8px auto;}
+.left_box .right_box .bg_b{background:url(../images/hp_rbox_bgb.gif) no-repeat left top;height:9px;}
+.right_button{padding-left:170px;}
+.right_button li{margin-bottom:10px;}
+.head_content,.menu,.content{margin:0 auto;width:926px;overflow:hidden;}
